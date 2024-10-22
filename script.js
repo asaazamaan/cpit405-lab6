@@ -71,7 +71,7 @@ function setSubmitCookie() {
 
 window.onload = () => {
   if (document.cookie && document.cookie.indexOf("submit") > -1) {
-    disableLike();
+    disableSubmit();
   }
 };
 
